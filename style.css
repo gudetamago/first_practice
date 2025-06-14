@@ -1,0 +1,168 @@
+:root {
+    --brand: #8246af;
+    --space-small: 8px;
+    --space-medium: 16px;
+    --space-large: 32px;
+    --space-xlarge: 64px;
+}
+
+/* CSS Reset */
+
+html {
+     box-sizing: border-box;
+     font-size: 16px;
+     font-family: "Inter", sans-serif;
+     color: var(--black);
+     scroll-behavior: smooth;
+ }
+
+ *,
+ *:before,
+ *:after {
+     box-sizing: inherit;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: "Rubik", sans-serif;
+ }
+
+ body,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ ol,
+ ul {
+     margin: 0;
+     padding: 0;
+ }
+
+ ol,
+ ul {
+     list-style: none;
+ }
+
+ img {
+     max-width: 100%;
+     height: auto;
+ }
+
+ input,
+ button,
+ textarea,
+ select {
+     font: inherit;
+ }
+
+ /* CSS Reset End */
+
+.flex {
+    display: flex;
+}
+
+.logo{
+    max-height: 100px;
+    width: auto;
+}
+
+.column {
+    flex-direction: column;
+}    
+
+.row {
+    flex-direction: row;
+}
+
+.gap-small {
+    gap: var(--space-small);
+}
+
+.gap-medium {
+    gap:var(--space-medium);
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.padding-small {
+    padding: var(--space-small); 
+}
+
+.padding-medium {
+    padding: var(--space-medium);
+}
+
+.padding-large {
+    padding: var(--space-large);
+}
+
+.padding-xlarge {
+    padding: var(--space-xlarge);
+}
+
+
+article img {
+    width:24px;
+}
+
+article .icon {
+    width: 24px;
+}
+
+.icon {
+    width: 32px;
+}
+
+/* Hero Styles */
+.hero {
+    background-color: var(--brand);
+    color: white;
+    border-radius: var(--space-small);
+    font-size: 3.5rem;
+}
+
+.article-bg {
+    background-color: #cdb5df;
+    border-radius: var(--space-small);
+}
+
+
+
+.button {
+    border-radius: 4px;
+    padding: 8px;
+    background-color: orange;
+    text-decoration: none;
+}    
+
+.hero-button{
+    width: 100px;
+    font-size: 1rem;
+}
+
+
+.form-width {
+    max-width: 50%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+* {
+    border: 1px solid red;
+}
